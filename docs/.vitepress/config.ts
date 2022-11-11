@@ -5,7 +5,7 @@ const logo: ThemeableImage = {light: 'logo.svg', dark: 'logo-dark.svg'};
 
 export default defineConfig({
     title: 'Motor CMS',
-    description: 'Just playing around.',
+    description: 'Opinionated headless framework based on Laravel',
     // appearance: false,
     base: '/docs/',
     lastUpdated: true,
@@ -27,7 +27,6 @@ export default defineConfig({
             {
                 text: 'Introduction',
                 items: [
-                    {text: 'What is Motor CMS?', link: '/index'},
                     {text: 'Getting Started', link: '/introduction/getting-started'},
                     {text: 'Additional packages', link: '/introduction/additional-packages'},
                 ]
