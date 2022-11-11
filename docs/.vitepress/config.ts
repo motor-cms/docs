@@ -1,7 +1,7 @@
 import {DefaultTheme, defineConfig} from 'vitepress'
 import ThemeableImage = DefaultTheme.ThemeableImage;
 
-const logo: ThemeableImage = {light: '/logo.svg', dark: 'logo-dark.svg'};
+const logo: ThemeableImage = {light: 'logo.svg', dark: 'logo-dark.svg'};
 
 export default defineConfig({
     title: 'Motor CMS',
