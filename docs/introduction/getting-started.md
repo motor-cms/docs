@@ -59,7 +59,7 @@ git clone -b 2.0 git@github.com:motor-cms/motor-media.git
 cd ../docker
 
 # Start docker containers
-docker-compose -f docker-compose-dev.json -p motor-nx-dev up -d
+docker-compose -f docker-compose-dev.yml -p motor-nx-dev up -d
 
 # Run the app container and, from within the container shell, seed the database
 docker exec -it motor-nx-app-1 /bin/bash
