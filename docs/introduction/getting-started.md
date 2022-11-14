@@ -14,7 +14,7 @@ To install Motor CMS from this template repository, you need the following softw
 
 ```zsh
 # Clone the repository
-git clone https://github.com/motor-cms/motor-template
+git clone git@github.com:motor-cms/motor-template.git
 
 # Change into the newly cloned repository
 cd motor-template
@@ -39,7 +39,7 @@ php artisan db:seed
 
 ```zsh
 # Clone the repository
-git clone https://github.com/motor-cms/motor-template
+git clone git@github.com:motor-cms/motor-template.git
 
 # Change into the newly cloned repository
 cd motor-template
