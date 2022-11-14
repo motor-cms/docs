@@ -61,12 +61,9 @@ cd ../docker
 # Start docker containers
 docker-compose -f docker-compose-dev.yml -p motor-nx-dev up -d
 
-# Run the app container and, from within the container shell, seed the database
-docker exec -it motor-nx-app-1 /bin/bash
-
 # The following commands are to be run in the container shell
 docker exec -it motor-nx-dev-app-1 /bin/bash
-php artisan db:migrate
+php artisan migrate
 php artisan db:seed
 
 # Update composer dependencies
