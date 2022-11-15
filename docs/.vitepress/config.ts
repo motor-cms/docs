@@ -27,15 +27,25 @@ export default defineConfig({
             {
                 text: 'Introduction',
                 items: [
-                    {text: 'Getting Started', link: '/introduction/getting-started'},
-                    {text: 'Additional packages', link: '/introduction/additional-packages'},
+                    {text: 'Why another CMS?', link: '/introduction/why-another-cms'},
                 ]
             },
             {
-                text: 'Modules',
+                text: 'Headless backend',
                 items: [
-                    {text: 'Included modules', link: '/modules/included-modules'},
-                    {text: 'Generating modules', link: '/modules/generating-modules'},
+                    {text: 'Installation', link: '/headless-backend/installation'},
+                    {text: 'Included modules', link: '/headless-backend/included-modules'},
+                    {text: 'Packages', link: '/headless-backend/packages'},
+                    {text: 'Generating modules', link: '/headless-backend/generating-modules'},
+                ]
+            },
+            {
+                text: 'Admin frontend',
+                items: [
+                    {text: 'Installation', link: '/admin-frontend/installation'},
+                    {text: 'Included modules', link: '/admin-frontend/included-modules'},
+                    {text: 'Packages', link: '/admin-frontend/packages'},
+                    {text: 'Generating modules', link: '/admin-frontend/generating-modules'},
                 ]
             }
         ],
