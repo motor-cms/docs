@@ -1,3 +1,3 @@
 # Generating modules
 
-Soon&trade;
+Very Soon&trade;
